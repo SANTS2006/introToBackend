@@ -115,5 +115,11 @@ public class learnInheritanceMethodOveriding {
 
         B showB = new B(20, 10, 12);
         showB.show();
+
+        A showA = new B(14, 78, 19);
+        showA.show();
+
+        A showA1 = new A(34, 90);
+        showA1.show();
     }
 }
